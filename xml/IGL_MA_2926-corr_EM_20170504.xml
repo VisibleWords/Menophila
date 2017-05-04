@@ -1,0 +1,276 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Stèle funéraire sculptée avec épitaphe de Ménophila</title>
+				<funder>Agence nationale de la recherche (France)</funder>
+				<funder>PUF</funder>
+				<funder>IUF</funder>
+				<sponsor>CNRS</sponsor>
+				<sponsor>Université Lyon 2</sponsor>
+				<sponsor>Musée du Louvre</sponsor>
+				<sponsor>UMR 5189 Hisoma</sponsor>
+				<sponsor>UMR 8210 Anhima</sponsor>
+				<sponsor>Ecole Française d'Athènes</sponsor>
+				<sponsor>USR 3439 Maison de l'Orient et de la méditerrannée</sponsor>
+				<sponsor>UMS 3598 TGIR Huma-num</sponsor>
+				<principal>
+					<persName ref="#MB">
+						<forename>Michèle</forename>
+						<surname>Brunet</surname>
+					</persName>
+				</principal>
+				<respStmt>
+					<resp>editor</resp>
+					<persName ref="#MB">
+						<forename>Michèle</forename>
+						<surname>Brunet</surname>
+					</persName>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<authority>Transcription produite dans le cadre du <ref target="http://www.iglouvre.org ">projet IGLouvre</ref> et établie selon les recommandations du schéma Epidoc, schéma TEI spécialisé pour l'épigraphie.</authority>
+				<idno type="filename">IGL_MA_2926</idno>
+				<availability>
+					<licence target="http://creativecommons.org/licenses/by/3.0/">
+						<p>Copyright (c) 2017 by Michèle Brunet</p>
+						<p>This work is licensed under the Creative Commons Attribution 3.0 Unported License. To view a copy of this license, visit http://creativecommons.org/licenses/by/3.0/ or send a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
+					</licence>
+				</availability>
+			</publicationStmt>
+			<notesStmt>
+				<note><!--Notes describing the inscription as a whole. If the comments concern specific elements, these must be associated with the relevant TEI/EpiDoc elements (as notes or other elements/attributes preferably).-->
+				</note>
+			</notesStmt>
+			<sourceDesc>
+				<!-- /////////////////////////////////// Description physique de l'objet  -->
+				<msDesc>
+					<msIdentifier>
+						<repository>Musée du Louvre</repository>
+						<collection>AGER</collection>
+						<idno type="invNo">AG005977</idno>
+						<msName>Bloc de marbre avec décrets honorifiques</msName>
+						<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - répétable  -->
+						<altIdentifier>
+							<idno type="invNo">MA 2926</idno>
+							<note>Catalogue du département des Antiquités grecques, romaine et étrusques (AGER)</note>
+						</altIdentifier>
+						<altIdentifier>
+							<idno type="invNo">MNB 0434</idno>
+							<note>à compléter par des infos explicitant le catalogue dans lequel cet identifiant fait sens.</note>
+						</altIdentifier>
+						<altIdentifier>
+							<idno type="invNo">349</idno>
+							<note>Base filemaker IGLouvre.</note>
+						</altIdentifier>
+					</msIdentifier>
+					<msContents>
+						<!-- //////////////////////// Description des unités inscrites (contenu intellectuel)  -->
+						<msItem>
+							<msItem xml:id="texte01" n="I">
+								<title>Épitaphe de Ménophila</title>
+								<bibl>IEph 2285C</bibl>
+								<bibl>
+									<ref target="http://epigraphy.packhum.org/text/250205">Ephesos 2475</ref>
+								</bibl>
+								<textLang mainLang="grc">Ancient Greek</textLang>
+							</msItem>
+						</msItem>
+					</msContents>
+					<physDesc>
+						<objectDesc>
+							<supportDesc>
+								<support>
+									<p>
+										<objectType>Stèle</objectType> en <material>marbre</material>. <dimensions unit="cm">
+											<height>84</height>
+											<width>59</width>
+											<depth>17,5</depth>
+										</dimensions>.</p>
+									<!-- Jupiter: H 84 L 59 E 17,5  -->
+								</support>
+								<condition>
+									<rs type="StatConservation">Bon état de conservation</rs>
+								</condition>
+							</supportDesc>
+							<layoutDesc>
+								<layout writtenLines="1">
+									<p>Ligne sur le cadre juste en dessous du fronton.</p>
+								</layout>
+							</layoutDesc>
+						</objectDesc>
+						<handDesc hands="1">
+							<handNote xml:id="handGen">[à compléter]</handNote>
+						</handDesc>
+						<decoDesc>
+							<decoNote>[à compléter]</decoNote>
+						</decoDesc>
+					</physDesc>
+					<history>
+						<origin>
+							<origPlace type="ancient">
+								<placeName cert="high" ref="https://pleiades.stoa.org/places/599612">Éphèse</placeName>
+							</origPlace>
+							<origDate resp="#MB" period="hellenistic" notBefore-custom="-150" notAfter-custom="-100" precision="medium" evidence="lettering internal parallel" datingMethod="#julian">
+								<date xml:id="fr">2e moitié IIe s. av. J.-C.</date>
+							</origDate>
+						</origin>
+						<provenance type="found" cert="medium">
+							<placeName>Éphèse</placeName>
+						</provenance>
+						<acquisition>[à compléter]</acquisition>
+					</history>
+					<additional>
+						<surrogates>
+							<listBibl type="photo">
+								<bibl>
+									<title>Stèle funéraire : une femme debout entre ses serviteurs, devant une étagère</title>
+									<author>
+										<persName>Pierre Chuzeville</persName>
+									</author>
+									<author>
+										<persName>Maurice Chuzeville</persName>
+									</author>
+									<idno>CH730188</idno>
+									<idno type="filename">ch730188.jpg</idno>
+									<date when="1973">1973</date>
+									<note type="photosource">négatif n/b 13 x 18 cm</note>
+									<note type="copyright">© 1973 Musée du Louvre / Pierre et Maurice Chuzeville</note>
+								</bibl>
+							</listBibl>
+							<!--<listBibl type="estampage">
+								<bibl> </bibl>
+							</listBibl>-->
+						</surrogates>
+					</additional>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<p>Les textes inscrits sur cet objet sont encodés conformément aux recommandations du standard XML/TEI <ref target="http://epidoc.sourceforge.net">EpiDoc</ref>.</p>
+			<variantEncoding method="location-referenced" location="external"/>
+			<refsDecl>
+				<!-- ###EM : à revoir -->
+				<cRefPattern matchPattern="([^ ]+ [0-9]+\.[0-9]+\.[0-9]+)" replacementPattern="#xpath(//lb[@n='$1')"/>
+			</refsDecl>
+		</encodingDesc>
+		<profileDesc>
+			<langUsage>
+				<language ident="fra">French</language>
+				<language ident="eng">English</language>
+				<language ident="grc">Ancient Greek</language>
+			</langUsage>
+			<textClass>
+				<!--<catRef scheme="#myTopics"
+					target="#news #prov #sales2"/>-->
+				<keywords scheme="http://pactols.frantiq.fr/">
+					<term ref="http://ark.frantiq.fr/ark:/26678/pcrt4csug8yYED" xml:lang="fra">stèle funéraire décorée</term>
+					<term ref="http://ark.frantiq.fr/ark:/26678/pcrtNb90Egda4H" xml:lang="fra">mort</term>
+				</keywords>
+			</textClass>
+			<particDesc>
+				<listPerson>
+					<person xml:id="person-1" sex="2">
+						<persName xml:lang="grc">Μηνοφίλα</persName>
+						<persName xml:lang="fra">Ménophila</persName>
+					</person>
+					<person xml:id="person-2" sex="1">
+						<persName xml:lang="grc">Ἀρτεμιδώρου</persName>
+						<persName xml:lang="fra">Artemidoros</persName>
+					</person>
+					<listRelation>
+						<relation type="personal" name="parent" active="#person-2" passive="#person-1"/>
+					</listRelation>
+				</listPerson>
+			</particDesc>
+			<abstract xml:lang="fra">
+				<p>Lorem ipsum dolor sit amet</p>
+			</abstract>
+		</profileDesc>
+		<!-- 
+		<encodingDesc>
+			<p xml:lang="en">This file encoded to comply with EpiDoc Guidelines and the latest Schema version <ref>http://www.stoa.org/epidoc/gl/latest/</ref>
+			</p>
+			<classDecl>
+				<taxonomy xml:lang="en">
+					<category xml:id="photo">
+						<catDesc>Digital or digitized photographs</catDesc>
+					</category>
+					<category xml:id="photo-estampage">
+						<catDesc>Digital or digitized photographs of estampages</catDesc>
+					</category>
+					<category xml:id="representation">
+						<catDesc>Digitized other representations</catDesc>
+					</category>
+				</taxonomy>
+			</classDecl>
+		</encodingDesc>
+		 -->
+		<revisionDesc>
+			<change who="EM" when="2017-03-10">Création du fichier</change>
+		</revisionDesc>
+	</teiHeader>
+	<facsimile>
+		<graphic url="ch730188.jpg">
+			<desc>
+				<title>Stèle funéraire : une femme debout entre ses serviteurs, devant une étagère</title>
+			</desc>
+			<desc type="copyright">© 1973 Musée du Louvre / Pierre et Maurice Chuzeville</desc>
+		</graphic>
+	</facsimile>
+	<text>
+		<body>
+			<div type="edition" xml:lang="grc">
+				<ab>
+					<lb n="1"/>
+					<persName ref="#person-1">Μηνοφίλα</persName>
+					<persName ref="#person-2">Ἀρτεμιδώρου</persName> χαῖρε </ab>
+			</div>
+			<div type="translation" xml:lang="en">
+				<p>
+					<persName ref="#person-1">Ménophila</persName> fille d'<persName ref="#person-2">Artemidoros</persName>, salut !</p>
+			</div>
+			<div type="commentary" subtype="main">
+				<p>[à compléter]</p>
+				<listBibl type="relations">
+					<bibl>
+						<ptr target="#IGL_MA_3296"/>
+					</bibl>
+					<listRelation>
+						<relation type="ontologie-IGLouvre" name="P01_resemblance-scene" active="IGL_MA_2926" passive="IGL_MA_3296"/>
+					</listRelation>
+				</listBibl>
+			</div>
+			<div type="commentary" subtype="secondary">
+				<p>[à compléter]</p>
+			</div>
+			<div type="bibliography">
+				<!--
+					PHI:					
+					Heydemann, Pariser Antiken 27, no. 51; 
+					Collignon, Statues fun. 289-290 (PH); 
+					Dain, ILouvre 54; 
+					Bieber, Sculpt. Hellenistic Age 132 (PH); 
+					Petzl & Linfert, RA 8, 1974, 36-37 (PH); 
+					Pfuhl & Möbius 417 (PH) 
+					
+					Filemaker:
+					Petzl, Linfert, RA 8, 1974, p. 36-37, ph ; 
+					Linfert, Kunstzentren Hellenistischer Zeit, 1976, p. 148, n. 589,7 ; 
+					Pfuhl-Möbius, I, 1977, p. 140-141, n° 417, pl. 68 ; 
+					Bieber, Ancient Copies, 1977, p. 131, fig. 586 ; 
+					Schmaltz, Griechische Grabreliefs, 1983, pl. 27,2 ; 
+					IEphesos 4234
+					-->
+				<p n="editions"> </p>
+				<p n="studies"/>
+				<!--<listBibl type="secondary-bibliography">
+					<bibl>
+						<ptr target="pyu-bibl:ASB"/>
+						<citedRange>1904–5, pp. 8–9, 35</citedRange>
+					</bibl>					
+				</listBibl>-->
+			</div>
+		</body>
+	</text>
+</TEI>
